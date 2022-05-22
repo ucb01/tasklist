@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+header{
+    font-weight: 700;
+    font-size: xx-large;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+button{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: crimson;
+    color: #fff;
+}
+input{
+    padding: 5px;
+    font-size: 20px;
+    width: 50vw;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid crimson;
+    background-color: rgb(235, 231, 186);
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+
+}
+li{
+    margin-top: 5px;
+    background-color: rgb(26, 62, 139);
+    list-style: none;
+    width: 40vw;
+    position: relative;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+}
+i.fa-trash-alt{
+    position: absolute;  
+    right: 5px;  
+}
+i.fa-trash-alt:hover{
+    cursor: pointer;
+    color: red;
+}
+i.fa-check-square{
+    position: absolute;
+    right: 25px;
+}
+i.fa-check-square:hover{
+    cursor: pointer;
+    color: rgb(18, 236, 18);
+}
+
+i.checked{
+    color: rgb(18, 236, 18);
+}
+li.checked{
+    opacity: 0.5;
+}
+
